@@ -10,6 +10,7 @@ The website is built using the following technologies:
 
 # 🚀 How to run locally?
 1. Download or clone this repository.
-2. Ensure all folders (static/css, static/js, static/images) are in the same directory as index.html.
+2. Ensure all folders (static/css, static/js, static/images) are in the same directory as `index.html`.
 3. Open `index.html` in your browser.
+
 
