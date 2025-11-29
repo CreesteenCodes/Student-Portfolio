@@ -38,6 +38,7 @@
                 <button class="tab active" data-tab="about">About</button>
                 <button class="tab" data-tab="resume">Resume</button>
                 <button class="tab" data-tab="projects">Projects</button>
+                <button class="tab" data-tab="analytics">Analytics</button>
                 <button class="tab" data-tab="contact">Contact</button>
             </div>
 
@@ -103,14 +104,17 @@
                 <div class="section" id="resume" style="display:none">
                     <div class="title"><h3>Resume</h3></div>
 
-                    <h4 style="margin-top:12px;color:#e9eef2">Education</h4>
+                    <h4 class="section-heading" style="margin-top:12px;color:#e9eef2"><span class="section-icon"><ion-icon name="school-outline"></ion-icon></span>Education</h4>
                     <div class="timeline">
-                        <div class="item"><strong>Batangas State University, TNEU - Mabini Campus</strong><div class="subtitle">2023-Present | Dean's Lister</div></div>
-                        <div class="item"><strong>Anselmo A. Sandoval Memorial National High School</strong><div class="subtitle">2021-2023 | With High Honors</div></div>
-                        <div class="item"><strong>Kaytitinga Integrated School</strong><div class="subtitle">2017-2021 | With Honors</div></div>
+                        <div class="item"><strong>Batangas State University, TNEU - Mabini Campus</strong>
+                            <div class="subtitle">Bachelor of Science in Information Technology, Major in Business Analytics<br>2023-Present | Dean's Lister</div></div>
+                        <div class="item"><strong>Anselmo A. Sandoval Memorial National High School</strong>
+                            <div class="subtitle">Information and Communications Technology<br>2021-2023 | With High Honors</div></div>
+                        <div class="item"><strong>Kaytitinga Integrated School</strong>
+                            <div class="subtitle">Secondary Level - Junior High School<br>2017-2021 | With Honors</div></div>
                     </div>
 
-                    <h4 style="margin-top:12px;color:#e9eef2">Certificates</h4>
+                    <h4 class="section-heading" style="margin-top:12px;color:#e9eef2"><span class="section-icon"><ion-icon name="ribbon-outline"></ion-icon></span>Certificates</h4>
                     <div class="timeline">
                         <div class="item"><strong>Anselmo A. Sandoval Memorial National High School</strong><div class="subtitle">2023 | 4th Place – Best Research Oral Presentation</div></div>
 						<div class="item"><strong>Best Mind Skills Training and Assessment Center Inc.</strong><div class="subtitle">2023 | Computer System Servicing NC II</div></div>
@@ -122,7 +126,7 @@
                         <div class="item"><strong></strong><div class="subtitle"></div><p class="subtitle"></p></div>
                     </div> -->
 
-                    <h4 style="margin-top:16px;color:#e9eef2">My Skills</h4>
+                    <h4 class="section-heading" style="margin-top:16px;color:#e9eef2"><span class="section-icon"><ion-icon name="construct-outline"></ion-icon></span>My Skills</h4>
                     <div class="skill"><p>Frontend Technologies</p><div class="bar"><div class="fill" data-percent="80"></div></div></div>
                     <div class="skill"><p>Backend Technologies</p><div class="bar"><div class="fill" data-percent="60"></div></div></div>
                     <div class="skill"><p>Database Technologies</p><div class="bar"><div class="fill" data-percent="70"></div></div></div>
@@ -131,6 +135,15 @@
 
                 <!--- Projects -->
                 <div class="section" id="projects" style="display:none">
+                    <div class="title"><h3>Analytics Activity</h3></div>
+                    <div class="projects-grid">
+                        <div class="proj" onclick="window.open('https://lookerstudio.google.com/reporting/347073ab-1f44-432d-9ff1-03492168f8e7','_blank')">
+                            <img src="static/images/activity-1.png" alt="FlixTicket">
+                            <h4>NutriBlends Production Data</h4>
+                            <p>Google Lookers Studio</p>
+                        </div>
+                    </div> <br>
+
                     <div class="title"><h3>Projects</h3></div>
                     <div class="projects-grid">
                         <div class="proj" onclick="window.open('https://github.com/CreesteenCodes/Booking-System','_blank')">
@@ -160,7 +173,112 @@
                         </div>
                     </div>
                 </div>
-           	</div>
+
+                <!--- Analytics --->
+                <div class="section" id="analytics" style="display:none">
+                    <div class="title"><h3>Academic & Personal Development Overview</h3></div>
+                    <p class="subtitle">I am a motivated individual focused on improving both knowledge and personal skills. I enjoy learning new things and applying them to achieve meaningful growth.</p>
+
+                    <div class="analytics-row">
+                        <div class="scorecard">
+                            <div class="analytics-title"><h4>Academic Performance</h4></div>
+
+                            <div class="scores">
+                                <div class="score-item" data-variant="green">
+                                    <div class="score-main">
+                                        <span class="score-icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                                        <div class="score-value">1.413</div>
+                                        <div class="score-label">1st Yr, 1st Sem</div>
+                                    </div>
+                                </div>
+                                <div class="score-item" data-variant="blue">
+                                    <div class="score-main">
+                                        <span class="score-icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                                        <div class="score-value">1.3478</div>
+                                        <div class="score-label">1st Yr, 2nd Sem</div>
+                                    </div>
+                                </div>
+                                <div class="score-item" data-variant="gold">
+                                    <div class="score-main">
+                                        <span class="score-icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                                        <div class="score-value">1.4674</div>
+                                        <div class="score-label">2nd Yr, 1st Sem</div>
+    
+                                    </div>
+                                </div>
+                                <div class="score-item" data-variant="purple">
+                                    <div class="score-main">
+                                        <span class="score-icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                                        <div class="score-value">1.413</div>
+                                        <div class="score-label">2nd Yr, 2nd Sem</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="analytics-charts">
+                            <div class="chart-card">
+                                <div class="chart-title"><h4>Academic Ranking</h4></div>
+                                <div class="chart-wrap">
+                                    <canvas id="rankChart" height="140"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="chart-card">
+                                <div class="chart-title"><h4>Leadership Involvement</h4></div>
+                                <div class="timeline-chart">
+                                    <ul class="leadership-timeline">
+                                        <li>
+                                            <div class="tl-title">CICS Mabini Student Council</div>
+                                            <div class="tl-sub">Secretary A.Y. 2024-2025</div>
+                                        </li>
+                                        <li>
+                                            <div class="tl-title">CICS Mabini Student Council</div>
+                                            <div class="tl-sub">1st Year Representative A.Y. 2023-2024</div>
+                                        </li>
+                                        <li>
+                                            <div class="tl-title">Class President</div>
+                                            <div class="tl-sub">2023 - Present</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="analytics-charts analytics-extra">
+                            <div class="chart-card">
+                                <div class="chart-title"><h4>Frequently Used Languages</h4></div>
+                                <div class="chart-wrap donut">
+                                    <canvas id="langChart" height="160"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="chart-card">
+                                <div class="chart-title"><h4>Seminars and Workshops Attended</h4></div>
+                                <div class="timeline-chart">
+                                    <ul class="seminars-list">
+                                        <li class="seminar-item">
+                                            <div class="sem-title">Capstone &lt;PRO&gt;posal Seminar: Sculpting Your Ideas into Reality</div>
+                                            <div class="sem-sub">CICS Mabini Student Council<br>January 31, 2025</div>
+                                        </li>
+                                        <li class="seminar-item">
+                                            <div class="sem-title">TIP: Technology Innovation Program</div>
+                                            <div class="sem-sub">CICS Mabini Student Council<br>April 27-28, 2023</div>
+                                        </li>
+                                        <li class="seminar-item">
+                                            <div class="sem-title">Computer System Servicing NC II</div>
+                                            <div class="sem-sub">Best Mind Skills Training and Assessment Center Inc.<br>February 2-3, 2023 and March 1, 2023</div>
+                                        </li>
+                                        <li class="seminar-item">
+                                            <div class="sem-title">Computer Development Training Program</div>
+                                            <div class="sem-sub">Victorious Christian Montessori College - Alfonso<br>Every Sunday, from May 6 to October 21, 2018</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!--- Contact -->
                 <div class="section" id="contact" style="display:none">
@@ -179,9 +297,12 @@
                     </div>
                 </div>
 
-            </div>
+           	</div>
         </section>
     </div>
+
+    <!-- Chart.js for analytics charts (scoped to analytics only) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="static/js/script.js"></script>
 
@@ -190,10 +311,3 @@
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
