@@ -6,12 +6,13 @@ A responsive and modern personal portfolio website that uses a glassmorphism des
 - Showcases my education, skills, projects, and contact information — ideal for potential employers, collaborators, or clients.
 
 # 🛠️ Tech Stack
-The website is built using the following technologies: HTML, CSS, Javascript, and Ionicons.
+The website is built using the following technologies: **HTML**, **CSS**, **Javascript**, and **Ionicons**.
 
 # 🚀 How to run locally?
 1. Download or clone this repository.
 2. Ensure all folders (static/css, static/js, static/images) are in the same directory as `index.html`.
 3. Open `index.html` in your browser.
+
 
 
 
